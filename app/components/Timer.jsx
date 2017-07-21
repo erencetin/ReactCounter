@@ -1,9 +1,9 @@
 var React = require('react');
-
+var Clock = require('Clock');
 var Timer = () => {
     return(
         <div>
-            Timer.jsx
+            <Clock formatSeconds="119"/>
         </div>
     );
 };
