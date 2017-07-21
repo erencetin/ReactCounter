@@ -1,6 +1,5 @@
 var React = require('react');
 var {Link,IndexLink} = require('react-router');
-l
 var Nav = () =>
     {
             return(
@@ -10,7 +9,7 @@ var Nav = () =>
                             <li className="menu-text">Counter</li>
                             <li><IndexLink to="/" activeClassName="active" activeStyle={{fontWeight:'bold'}}>Timer</IndexLink></li>
                             <li>
-                                <Link to="/countdown" activeClassName="active" activeStyle={{fontWeight: 'bold'}}> Count Down</Link>
+                                <Link to="/Countdown" activeClassName="active" activeStyle={{fontWeight: 'bold'}}> Count Down</Link>
 
                             </li>
                             <li>
