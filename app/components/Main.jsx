@@ -5,14 +5,14 @@ var Countdown = require('Countdown');
 var Main = (props) =>{
   return (
       <div>
-        <div>
-            <Nav/>
-            {props.children}
-        </div>
-        <div>
-          {/*<Timer/>
-          <Countdown/>*/}
-        </div>
+           <Nav/>
+          <div className="row">
+              <div className="column small-centered medium-6 large-4">
+                 {props.children}
+
+              </div>
+          </div>
+   
       </div>
     );
 }
